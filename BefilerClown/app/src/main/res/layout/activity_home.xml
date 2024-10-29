@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:fitsSystemWindows="true"
+    tools:context=".home"  >
+
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home"
+    android:orientation="vertical">
+
+
+       <include
+           android:id="@+id/imageView"
+           layout="@layout/activity_toolbar"/>
+ <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btn_efilling"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/efilling" />
+    <ImageButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/ntn"/>
+    <ImageButton
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/verifyntn"/>
+    <ImageButton
+        android:id="@+id/btn_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/calculator"/>
+
+     <ImageButton
+         android:id="@+id/btn_faqs"
+         android:layout_width="match_parent"
+         android:layout_height="117dp"
+         android:background="@drawable/faqs" />
+</LinearLayout>
+
+</LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/nav_header"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:id="@+id/nv">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

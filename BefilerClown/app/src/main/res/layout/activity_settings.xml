@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".efilling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="Personal Information"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Full name"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#8A4E4B4B"
+                android:id="@+id/fullname"
+                android:backgroundTint="#8A4E4B4B"
+                android:visibility="gone"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#8A4E4B4B"
+                android:hint="National Identity Number (CNIC)"
+                android:id="@+id/cnic"
+                android:backgroundTint="#8A4E4B4B"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:hint="Date of Birth"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textColorHint="#8A4E4B4B"
+                android:id="@+id/dob"
+                android:visibility="gone"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="#8A4E4B4B"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:visibility="gone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#8A4E4B4B"
+                android:hint="Occupation"
+                android:id="@+id/occupation"
+                android:backgroundTint="#8A4E4B4B"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="Continue"
+            android:visibility="gone"
+            android:id="@+id/btn"
+            android:layout_gravity="end"
+            android:layout_marginEnd="12dp"
+            android:textColor="#8A4E4B4B"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
+            android:textSize="18dp"/>
+
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="Change Password:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Current Password"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000000"
+                android:visibility="gone"
+                android:textColorHint="#8A4E4B4B"
+                android:id="@+id/current_pass"
+                android:backgroundTint="#8A4E4B4B" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#8A4E4B4B"
+                android:hint="Enter new password"
+                android:id="@+id/new_pass"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:backgroundTint="#8A4E4B4B"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:hint="Confirm new password"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:visibility="gone"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#8A4E4B4B"
+                android:id="@+id/cnfrm_new_pass"
+                android:backgroundTint="#8A4E4B4B"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="Continue"
+            android:id="@+id/btn1"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="12dp"
+            android:textColor="#8A4E4B4B"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:background="@drawable/custom_button"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

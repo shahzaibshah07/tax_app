@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "860254613414",
+    "firebase_url": "https://befilerclown-default-rtdb.firebaseio.com",
+    "project_id": "befilerclown",
+    "storage_bucket": "befilerclown.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860254613414:android:cb772a3713f91abb7c2967",
+        "android_client_info": {
+          "package_name": "com.example.befilerclown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860254613414-c35o1chhgldothm2asevfbbi2vchhbq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo3tD3mM5utHyKxj06GShHCd3jn-vcWng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860254613414-c35o1chhgldothm2asevfbbi2vchhbq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

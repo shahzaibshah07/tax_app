@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faqs">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/qus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Q1.  What is Full-Text Search?"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans1"
+            android:text="Answer:      Full-Text Search will allow you to search the full text of all EDGAR filings submitted electronically in the last four years. The full text of a filing includes all data in the filing itself as well as all attachments (such as exhibits) to the filing. Full-Text Search uses a conceptual search engine to search and retrieve the information you need"
+            android:textColor="#000000"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/qus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q2:     How do I do a basic search on Full-Text Search?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/ans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer :      Type your search in the Search For Text box and click the Search button. If you would like to enter a new search, click the Reset button and type your new search in the Search For Textbox"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginBottom="5dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/qus3"
+           android:textColor="#000000"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="15sp"
+           android:textStyle="bold"
+        android:text="Q3:      The filing I was looking for did not show up at the top of the results. Why not?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans3"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Answer:     After you click Search, the results returned by the search engine are sorted in reverse chronological order, meaning that the most recent filings are at the top. You can narrow the results by adding new search terms, selecting a form type, and selecting a date range for the filing."
+            android:textColor="#000000"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qus4"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Q4:   Can I specify the number of results per page?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans4"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Answer:     Yes. Click the Advanced Search link. You may specify the number of search results (5, 10, 15, 20, 25) displayed on each page by using the Results Per Page pull-down menu and making your selection from the list."
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qus5"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            android:text="Q5:    What is natural language searching?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans5"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:visibility="gone"
+            android:text="Answer :      Natural language searching allows you to search for a concept by using the language that you would use to express that concept to another person."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qus6"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            android:text="Q6:    I still need help. What do I do?"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans6"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:text="Answer:       Send an e-mail to the textsearch@sec.gov mailbox, telling us what you're trying to find and how you've been searching for it."/>
+    </LinearLayout>
+    </LinearLayout>

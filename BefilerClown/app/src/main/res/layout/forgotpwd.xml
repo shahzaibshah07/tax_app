@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        >
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:errorEnabled="true"
+            android:textColorHint="#8E8888"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="#8A4E4B4B"
+            android:hint="Your Email"
+            android:textColorHint="#8A4E4B4B"
+            android:id="@+id/email"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:text="Reset"
+            android:id="@+id/btn_rest"
+            android:textColor="#8A4E4B4B"
+            android:padding="12dp"
+            android:background="@drawable/custom_button"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="05dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimaryDark"
+
+            android:text="By clicking Reset you will  receive an email \n to reset yor password"
+
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

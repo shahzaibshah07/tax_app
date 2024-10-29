@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".verify_ntn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingTop="20dp"
+        android:paddingRight="25dp">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/verify" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Search NTN"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout6"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:errorEnabled="true"
+            android:padding="10dp"
+            android:textColorHint="#8E8888"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#8A4E4B4B"
+                android:hint="Enter Number"
+                android:id="@+id/input_number"
+                android:backgroundTint="#8A4E4B4B"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:text="Search"
+            android:id="@+id/btn_search"
+            android:textColor="#8A4E4B4B"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
